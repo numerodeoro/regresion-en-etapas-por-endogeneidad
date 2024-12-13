@@ -1,0 +1,1 @@
+Análisis econometrico de datos de panel para Argentina. Regresion en etapas. El código está comentado pero, sin contexto, podría ser difícil de entender. Adjunto el artículo que se basó en estos resultados para contexto (archivo word) y adjunto un paper relativo al tema usado como antecente teorico
