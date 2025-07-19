@@ -204,8 +204,8 @@ writeLines(RR132, "segunda etapa R13.txt")
 #en la segunda etapa de R5
 ef5 <- lm(gasto ~ est.in5 + transf+des+pp+aelec+ factor(prov) - 1, data = datos_panel)
 reporte_efectos_fijos<-stargazer(ef5, type="text")
-# la funcion write.xlsx lo exporta a un excel pero no salio bien, 
-#asi que lo exporte tambien a un txt
+# la funcion write.xlsx lo exporta a un excel, 
+# lo exporte tambien a un txt
 write.xlsx(reporte_efectos_fijos, "reporte efectos fijos.xlsx")
 writeLines(reporte_efectos_fijos, "reporte efectos fijos.txt")
 
