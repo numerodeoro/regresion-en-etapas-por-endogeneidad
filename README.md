@@ -28,13 +28,6 @@ El análisis fue encargado por una **economista del CONICET**, y los resultados 
 
 ---
 
-## 🔗 Publicación
-
-El artículo se encuentra disponible en el sitio oficial del CONICET:  
-👉 [Ver publicación](https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=64277&articulos=yes)
-
----
-
 ## 🎯 Finalidad
 
 Este proyecto demuestra cómo aplicar **regresiones por etapas** para abordar la **endogeneidad** en modelos con **datos de panel**.  
