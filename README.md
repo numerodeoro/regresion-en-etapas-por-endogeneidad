@@ -1,26 +1,55 @@
 # 📊 Regresión en Etapas con Datos de Panel – Análisis para Argentina
-Este repositorio contiene el código R desarrollado para un análisis econométrico aplicado a datos de panel sobre Argentina. El objetivo fue estimar un modelo con doble endogeneidad, resolviendo el problema mediante regresión en tres etapas.
 
-El análisis fue encargado por una economista del CONICET y sirvió como base empírica para la redacción de un artículo académico. El repositorio incluye tanto el código comentado como materiales de contexto para facilitar su comprensión.
+Este repositorio contiene el código en **R** desarrollado para un análisis econométrico aplicado a datos de panel correspondientes a Argentina. El objetivo fue estimar un modelo con **doble endogeneidad**, abordado mediante una **regresión en tres etapas**.
+
+El análisis fue encargado por una **economista del CONICET**, y los resultados empíricos sirvieron de base para un artículo académico revisado por pares. Este repositorio incluye el código comentado y materiales de contexto para facilitar su interpretación y reutilización.
+
+---
 
 ## 📄 Contenido del repositorio
-CodigoPulido.R: código R con los pasos del análisis econométrico, incluyendo:
 
-* **Preparación de los datos**
+- **`CodigoPulido.R`**: script de R que incluye todos los pasos del análisis, con comentarios aclaratorios. Contiene:
+  - Preparación de datos
+  - Estimaciones por etapas
+  - Diagnósticos de endogeneidad
+  - Exportación de resultados en `.txt` y `.xls`
+  - Introducción de ruido en variables con poca variabilidad, para garantizar la estimabilidad
 
-* **Estimaciones por etapas**
+- **Artículo académico (formato Word)**: escrito por la economista contratante, basado directamente en este análisis. Incluido con su autorización.
 
-* **Análisis de endogeneidad**
+- **Paper de Jones, Sanguinetti y Tommasi (PDF)**: referencia teórica clave sobre el problema abordado, utilizado como sustento conceptual.
 
-* **Interpretación parcial de resultados**
-
-* **Artículo académico** redactado por la economista que encargó el análisis. Se basa directamente en los resultados obtenidos con este código. Incluido con su autorización.
-
-* **paper de Jones, Sanguinetti y Tommasi** en formato PDF, documento teórico sobre la discusión econométrica subyacente, utilizado como referencia conceptual en el desarrollo del análisis.
+---
 
 ## 📌 Aclaraciones
-No se incluye la base de datos original ya que su publicación requeriría el permiso de otras personas involucradas en su confección, que no han sido contactadas. Sin embargo, el código está suficientemente comentado y puede adaptarse fácilmente a otras bases con estructura similar.
+
+🔒 La base de datos original **no se incluye** debido a que su publicación requeriría autorización de otras personas involucradas en su elaboración.  
+🛠️ Sin embargo, el script está **altamente comentado** y puede adaptarse fácilmente a bases de estructura similar.
+
+---
+
+## 🔗 Publicación
+
+El artículo se encuentra disponible en el sitio oficial del CONICET:  
+👉 [Ver publicación](https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=64277&articulos=yes)
+
+---
 
 ## 🎯 Finalidad
-Este proyecto demuestra cómo aplicar *métodos de regresión por etapas* en presencia de **endogeneidad en modelos con datos de panel**. Está pensado para economistas, estudiantes avanzados y cualquier persona interesada en métodos econométricos aplicados.
-A los estudiantes y econometristas también podría servirles para ver cómo se pueden utilizar Stargazer y la exportación de resultados a formatos .txt y .xls y cómo introducir ruido en variables con muy pocos valores distintos para una correcta estimación de sus efectos.
+
+Este proyecto demuestra cómo aplicar **regresiones por etapas** para abordar la **endogeneidad** en modelos con **datos de panel**.  
+Está dirigido a economistas, investigadores, estudiantes avanzados de econometría y cualquier persona interesada en modelos empíricos con estructura compleja.
+
+---
+
+## 🛠️ Herramientas utilizadas
+
+- **Lenguaje:** R  
+- **Paquetes:** `plm`, `stargazer`, `readxl`, `writexl`, entre otros  
+- **Salida de resultados:** exportación tabular (`.txt`, `.xls`) para integración con reportes
+
+---
+
+## ✨ Comentario final
+
+Este repositorio tiene valor tanto como caso aplicado como por la forma en que documenta cada paso del proceso. Puede servir como referencia metodológica para quienes estén trabajando con modelos similares.
