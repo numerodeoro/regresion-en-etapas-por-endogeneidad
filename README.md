@@ -25,5 +25,5 @@ El artículo original se encuentra disponible en el sitio oficial del CONICET:
 🔗 Ver publicación
 
 ## 🎯 Finalidad
-Este proyecto demuestra cómo aplicar métodos de regresión por etapas en presencia de endogeneidad en modelos con datos de panel. Está pensado para economistas, estudiantes avanzados y cualquier persona interesada en métodos econométricos aplicados.
-A los estudiantes y econometristas también podría servirles para ver cómo se pueden utilizar Stargazer y la exportación de resultados a formatos .txt
+Este proyecto demuestra cómo aplicar *métodos de regresión por etapas* en presencia de **endogeneidad en modelos con datos de panel**. Está pensado para economistas, estudiantes avanzados y cualquier persona interesada en métodos econométricos aplicados.
+A los estudiantes y econometristas también podría servirles para ver cómo se pueden utilizar Stargazer y la exportación de resultados a formatos .txt y .xls y cómo introducir ruido en variables con muy pocos valores distintos para una correcta estimación de sus efectos.
